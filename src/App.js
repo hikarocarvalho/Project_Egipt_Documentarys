@@ -5,7 +5,6 @@ import background from './components/background.png'
 import './App.css';
 import React from 'react';
 import BoxItem from './components/boxitem/BoxItem';
-import 'react-bootstrap';
 import Title from './components/title/Title';
 import {Col} from 'reactstrap';
 class App extends React.Component{
