@@ -1,0 +1,24 @@
+.carditem{
+    height: 100%;
+    text-align: center; 
+      
+}
+.itemtitle{
+    font-size: 12px;
+}
+#card{
+    background-color: #635339;
+    border-radius: 20px;
+    color:#ff7937;
+}
+.description{
+    color:#f35100;
+}
+.bodyitem{
+    height: 270px;
+}
+.count-einer{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
