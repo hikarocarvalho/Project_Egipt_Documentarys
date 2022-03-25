@@ -25,10 +25,13 @@
 .items{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: flex-start;
   flex-wrap: wrap;
-  width: 100%;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding-left: 12.5%;
+  padding-right: 12.5%;
+  width: auto;
   height: auto;
   
 }
@@ -45,5 +48,13 @@
 @media only screen and (min-width: 1025px) {
   .title{
     flex-direction: row;
+  }
+  .count-einer{
+    max-width: 30%;
+    margin: 0;
+    margin-right: 0.5em;
+  }
+  .count-einer:last-child{
+    margin-right:0;
   }
 }
